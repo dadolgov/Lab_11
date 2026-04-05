@@ -25,3 +25,12 @@ def test_460():
 
 def test_820():
     assert adjust_rotation(820)==100
+
+def test_neg_100():
+    assert adjust_rotation(-100)==260
+
+def test_neg_460():
+    assert adjust_rotation(-460)==260
+
+def test_neg_820():
+    assert adjust_rotation(-820)==260
